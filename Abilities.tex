@@ -1,0 +1,152 @@
+\newcounter{xp}
+\newcounter{ecl}
+\newcounter{age}
+\newcounter{totalhp}
+\newcounter{currenthp}
+\newcounter{str}
+\newcounter{dex}
+\newcounter{con}
+\newcounter{int}
+\newcounter{wis}
+\newcounter{cha}
+\newcounter{strmod}
+\newcounter{dexmod}
+\newcounter{conmod}
+\newcounter{intmod}
+\newcounter{wismod}
+\newcounter{chamod}
+\newcounter{sizemod}
+\newcounter{initmod}
+\newcounter{initmisc} %misc initiative modifier
+\newcounter{ac}
+\newcounter{touchac}
+\newcounter{flatfootedac}
+\newcounter{acarmour}
+\newcounter{acshield}
+\newcounter{acdex}
+\newcounter{acsize}
+\newcounter{acnatural}
+\newcounter{acdeflect}
+\newcounter{acmisc}
+\newcounter{acmaxdex}
+\newcounter{fort}
+\newcounter{reflex}
+\newcounter{will}
+\newcounter{basefort}
+\newcounter{baseref}
+\newcounter{basewill}
+\newcounter{resistancesave}
+\newcounter{magicfort}
+\newcounter{magicref}
+\newcounter{magicwill}
+\newcounter{fortmisc}
+\newcounter{refmisc}
+\newcounter{willmisc}
+\newcounter{cmb}
+\newcounter{cmd}
+\newcounter{cmbmisc}
+\newcounter{cmdmisc}
+\newcounter{bab}
+\newcounter{spellresistance}
+\newcounter{lightload}
+\newcounter{medload}
+\newcounter{heavyload}
+\newcounter{money}
+\newcounter{casterlevel}
+
+\newcommand{\charname}{Juan Feng}
+\newcommand{\charrace}{Tengu}
+\newcommand{\charclass}{Summoner 2}
+\newcommand{\charalignment}{CN}
+\newcommand{\charsex}{Male}
+\newcommand{\charsize}{Medium}
+\setcounter{sizemod}{0}
+\newcommand{\chartype}{Humanoid (Tengu)}
+\newcommand{\charheight}{4'9``}
+\newcommand{\charweight}{38kg/85lb}
+\newcommand{\charhair}{Glossy black feathers}
+\newcommand{\chareyes}{White}
+\setcounter{age}{5}
+
+\setcounter{xp}{4}
+\setcounter{ecl}{2}
+
+\setcounter{totalhp}{17}
+\setcounter{currenthp}{17}
+\newcommand{\speed}{30', 6sq (light load)}
+
+\setcounter{str}{10} % 0
+\setcounter{dex}{16} % 5
+\setcounter{con}{12} % 5
+\setcounter{int}{14} % 5
+\setcounter{wis}{10} % -2
+\setcounter{cha}{15} % 7
+
+\setcounter{initmisc}{2}
+
+\setcounter{acnatural}{0}
+\setcounter{acarmour}{2}
+\setcounter{acmaxdex}{6} %maximum dexterity modifier armour allows. Use a high number for none
+
+\setcounter{basefort}{0}
+\setcounter{baseref}{0}
+\setcounter{basewill}{3}
+\setcounter{resistancesave}{0}
+\setcounter{bab}{1}
+\setcounter{spellresistance}{0}
+
+\setcounter{cmdmisc}{\value{acdeflect}}
+
+\newcommand{\feats}{
+ Spell Focus (Conjuration)\\
+}
+
+\newcommand{\traits}{
+Storyteller: 1/day add +5 to a knowledge check, Reactionary
+}
+\newcommand{\specialabilities}{
+Low-light vision, Swordtrained, Bite attack\\
+5/day Summon Monster I \\
+Eidolon, Lifelink
+}
+\newcommand{\conditionalmods}{
++2 Vs Enchantment\\
+}
+\newcommand{\languages}{
+Common, Tengu, Kelish, Vudrani \\
+}
+\setcounter{lightload}{33}
+\setcounter{medload}{67}
+\setcounter{heavyload}{\value{lightload} + \value{medload}}
+
+\setcounter{money}{0}
+
+\newcommand{\conditionalspellmods}{
+}
+
+\setcounter{casterlevel}{2}
+
+\newcommand{\spellsknown}{
+\begin{compactenum}
+\item [1st] \spell{Rejuvinate Eidolon [lesser]}, \spell{Grease}, \spell{Mage Armor}
+\item [0]   \spell{Guidance}, \spell{Detect Magic}, \spell{Mage Hand}, \spell{Message}, \spell{Acid Splash}
+\end{compactenum}
+}
+
+\newcommand{\domains}{
+None
+}
+\newcommand{\notes}{
+0/4 Prestige
+}
+\newcommand{\people}{
+}
+
+\newcommand{\scenariolist}{
+}
+
+
+\newcommand{\biography}{
+
+}
+
