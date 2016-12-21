@@ -1,7 +1,7 @@
 all: charsheet summarysheet
 
 orochi: charsheet
-	ln -s charsheet.pdf orochi.pdf
+	ln -s Charsheet.pdf orochi.pdf
 
 charsheet: Charsheet.tex
 	pdflatex $^
